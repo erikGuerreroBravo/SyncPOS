@@ -87,14 +87,7 @@
     <Compile Include="ISyncCatalogos.cs" />
     <Compile Include="orden.cs" />
     <Compile Include="orden_articulo.cs" />
-    <Compile Include="POSDataContext.cs">
-      <DependentUpon>POSDataContext.dbml</DependentUpon>
-    </Compile>
-    <Compile Include="POSDataContext.designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>POSDataContext.dbml</DependentUpon>
-    </Compile>
+    <Compile Include="POSDataContext.cs" />
     <Compile Include="Properties\Settings.cs" />
     <Compile Include="proveedor.cs" />
     <Compile Include="Service1.svc.cs">
@@ -111,14 +104,6 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="POSDataContext.dbml">
-      <Generator>MSLinqToSQLGenerator</Generator>
-      <LastGenOutput>POSDataContext.designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </Content>
-    <None Include="POSDataContext.dbml.layout">
-      <DependentUpon>POSDataContext.dbml</DependentUpon>
-    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
