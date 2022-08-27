@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SyncPOS", "SyncPOS\SyncPOS.csproj", "{06E41EB0-FC79-443B-91C9-79D455DAA73D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{06E41EB0-FC79-443B-91C9-79D455DAA73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E41EB0-FC79-443B-91C9-79D455DAA73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E41EB0-FC79-443B-91C9-79D455DAA73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E41EB0-FC79-443B-91C9-79D455DAA73D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5FC1B42-1EA7-4616-B5D9-02F08F71A1E9}
+	EndGlobalSection
+EndGlobal
