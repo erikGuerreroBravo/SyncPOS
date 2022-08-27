@@ -80,6 +80,8 @@
     <Compile Include="domain\proveedor.cs" />
     <Compile Include="domain\unidad_medida.cs" />
     <Compile Include="domain\usuario.cs" />
+    <Compile Include="domain\usuario_permiso.cs" />
+    <Compile Include="exceptions\CtrlException.cs" />
     <Compile Include="inventario_captura.cs" />
     <Compile Include="inventario_fisico.cs" />
     <Compile Include="ISyncCatalogos.cs" />
