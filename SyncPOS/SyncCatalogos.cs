@@ -5,7 +5,7 @@ using System.Web;
 
 namespace SyncPOS
 {
-    public class SyncCatalogos
+    public class SyncCatalogos: ISyncCatalogos
     {
     }
 }
