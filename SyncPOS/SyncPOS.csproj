@@ -76,6 +76,7 @@
     <Compile Include="domain\inventario_captura.cs" />
     <Compile Include="domain\inventario_fisico.cs" />
     <Compile Include="domain\pedido.cs" />
+    <Compile Include="domain\pedido_articulo.cs" />
     <Compile Include="inventario_captura.cs" />
     <Compile Include="inventario_fisico.cs" />
     <Compile Include="ISyncCatalogos.cs" />
