@@ -87,7 +87,14 @@
     <Compile Include="ISyncCatalogos.cs" />
     <Compile Include="orden.cs" />
     <Compile Include="orden_articulo.cs" />
-    <Compile Include="POSDataContext.cs" />
+    <Compile Include="POSDataContext.cs">
+      <DependentUpon>POSDataContext.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="POSDataContext.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>POSDataContext.dbml</DependentUpon>
+    </Compile>
     <Compile Include="proveedor.cs" />
     <Compile Include="Service1.svc.cs">
       <DependentUpon>Service1.svc</DependentUpon>
@@ -103,12 +110,23 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="POSDataContext.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>POSDataContext.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="POSDataContext.dbml.layout">
+      <DependentUpon>POSDataContext.dbml</DependentUpon>
+    </None>
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

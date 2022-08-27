@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.625, 22.25" name="POSDataContext">
+  <DataContextMoniker Name="/POSDataContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="e52ac818-1f86-41c7-86df-49dce6e850f1" absoluteBounds="1.375, 1.625, 2, 5.8092268880208326">
+      <DataClassMoniker Name="/POSDataContextDataContext/articulo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3f256154-ca30-4e8e-9396-ab8a6c849c58" absoluteBounds="1.3900000000000001, 2.085, 1.9700000000000002, 5.249226888020833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.08423076923077 : 7.43422688802083); (2.08423076923077 : 7.68422688802083); (2.67961538461538 : 7.68422688802083); (2.67961538461538 : 7.43422688802083)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/POSDataContextDataContext/articulo/articulo_articulo" />
+      <nodes>
+        <classShapeMoniker Id="e52ac818-1f86-41c7-86df-49dce6e850f1" />
+        <classShapeMoniker Id="e52ac818-1f86-41c7-86df-49dce6e850f1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="93494a80-6fe6-4516-bd3e-949c34a98d29" absoluteBounds="4.5, 4.25, 2, 2.5401025390625">
+      <DataClassMoniker Name="/POSDataContextDataContext/compra" />
+      <nestedChildShapes>
+        <elementListCompartment Id="47fea513-d2b7-404b-a359-32edae3b52ad" absoluteBounds="4.515, 4.71, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="17910965-23dd-401c-a68f-24003c40a564" absoluteBounds="5.875, 8.25, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/POSDataContextDataContext/compra_articulo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0b4538d2-ceae-417b-9c08-100c427668cf" absoluteBounds="5.89, 8.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(1.69836288461538 : 7.43422688802083); (1.69836288461538 : 9.42390055338542); (1.80796349358974 : 9.42390055338542 : JumpStart); (1.97463016025641 : 9.42390055338542 : JumpEnd); (3.00647435897436 : 9.42390055338542 : JumpStart); (3.17314102564103 : 9.42390055338542 : JumpEnd); (5.875 : 9.42390055338542)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/articulo/articulo_compra_articulo" />
+      <nodes>
+        <classShapeMoniker Id="e52ac818-1f86-41c7-86df-49dce6e850f1" />
+        <classShapeMoniker Id="17910965-23dd-401c-a68f-24003c40a564" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(6.1875 : 6.7901025390625); (6.1875 : 8.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/compra/compra_compra_articulo" />
+      <nodes>
+        <classShapeMoniker Id="93494a80-6fe6-4516-bd3e-949c34a98d29" />
+        <classShapeMoniker Id="17910965-23dd-401c-a68f-24003c40a564" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="1bc5535d-04b7-4528-bcf2-8879f68af82e" absoluteBounds="6, 11.125, 2, 1.3862939453125">
+      <DataClassMoniker Name="/POSDataContextDataContext/ctrl_errores" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ca41da66-f8d2-4e97-ad4b-93319b4578d7" absoluteBounds="6.0150000000000006, 11.585, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="2a425cd5-ee4f-4040-9143-f972c6ac7ef2" absoluteBounds="2.5, 10.25, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/POSDataContextDataContext/inventario_captura" />
+      <nestedChildShapes>
+        <elementListCompartment Id="024955df-9f16-42d1-8034-8c3b18859a2a" absoluteBounds="2.515, 10.71, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.08980769230769 : 7.43422688802083); (3.08980769230769 : 10.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/articulo/articulo_inventario_captura" />
+      <nodes>
+        <classShapeMoniker Id="e52ac818-1f86-41c7-86df-49dce6e850f1" />
+        <classShapeMoniker Id="2a425cd5-ee4f-4040-9143-f972c6ac7ef2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="894656ff-f22d-4103-a53c-b097f2883750" absoluteBounds="5.5, 14.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/POSDataContextDataContext/inventario_fisico" />
+      <nestedChildShapes>
+        <elementListCompartment Id="badbaa68-3bf7-4d66-8db0-aa54e89b68d6" absoluteBounds="5.515, 14.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.65625 : 14.125); (5.65625 : 10.8614005533854); (4.5 : 10.8614005533854)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/inventario_fisico/inventario_fisico_inventario_captura" />
+      <nodes>
+        <classShapeMoniker Id="894656ff-f22d-4103-a53c-b097f2883750" />
+        <classShapeMoniker Id="2a425cd5-ee4f-4040-9143-f972c6ac7ef2" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="eccb0bb2-3f4c-4a25-84ea-23d2445b138c" absoluteBounds="2.25, 14, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/POSDataContextDataContext/orden" />
+      <nestedChildShapes>
+        <elementListCompartment Id="58d05a00-3524-4450-a9e9-93aadcda8235" absoluteBounds="2.265, 14.46, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b7ca3e3f-8a1c-4508-be36-63738d7b869e" absoluteBounds="5.375, 18.125, 2, 2.5401025390625">
+      <DataClassMoniker Name="/POSDataContextDataContext/orden_articulo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a4410248-2fc3-467b-b99b-be0785d27009" absoluteBounds="5.39, 18.585, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(3.25 : 16.9247054036458); (3.25 : 19.3950512695313); (5.375 : 19.3950512695313)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/orden/orden_orden_articulo" />
+      <nodes>
+        <classShapeMoniker Id="eccb0bb2-3f4c-4a25-84ea-23d2445b138c" />
+        <classShapeMoniker Id="b7ca3e3f-8a1c-4508-be36-63738d7b869e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.89129682692308 : 7.43422688802083); (1.89129682692308 : 18.7287731347656); (3.16666666666667 : 18.7287731347656 : JumpStart); (3.33333333333333 : 18.7287731347656 : JumpEnd); (5.375 : 18.7287731347656)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/articulo/articulo_orden_articulo" />
+      <nodes>
+        <classShapeMoniker Id="e52ac818-1f86-41c7-86df-49dce6e850f1" />
+        <classShapeMoniker Id="b7ca3e3f-8a1c-4508-be36-63738d7b869e" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.50542894230769 : 7.43422688802083); (1.50542894230769 : 20.0613294042969); (5.375 : 20.0613294042969)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/articulo/articulo_orden_articulo1" />
+      <nodes>
+        <classShapeMoniker Id="e52ac818-1f86-41c7-86df-49dce6e850f1" />
+        <classShapeMoniker Id="b7ca3e3f-8a1c-4508-be36-63738d7b869e" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="bca3513b-204e-461b-b70c-ed46d1f3a7e4" absoluteBounds="8.75, 16.75, 2, 2.5401025390625">
+      <DataClassMoniker Name="/POSDataContextDataContext/proveedor" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e936d6cd-6a6e-4549-908c-df126aaddf11" absoluteBounds="8.765, 17.21, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.75 : 16.75); (9.75 : 2.90625); (3.375 : 2.90625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/proveedor/proveedor_articulo" />
+      <nodes>
+        <classShapeMoniker Id="bca3513b-204e-461b-b70c-ed46d1f3a7e4" />
+        <classShapeMoniker Id="e52ac818-1f86-41c7-86df-49dce6e850f1" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(9.2187475 : 16.75); (9.2187475 : 5.52005126953125); (6.5 : 5.52005126953125)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/proveedor/proveedor_compra" />
+      <nodes>
+        <classShapeMoniker Id="bca3513b-204e-461b-b70c-ed46d1f3a7e4" />
+        <classShapeMoniker Id="93494a80-6fe6-4516-bd3e-949c34a98d29" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(10.2812525 : 16.75); (10.2812525 : 15.1065991210937); (9.83333333333333 : 15.1065991210937 : JumpStart); (9.66666666666667 : 15.1065991210937 : JumpEnd); (9.30208083333333 : 15.1065991210937 : JumpStart); (9.13541416666667 : 15.1065991210937 : JumpEnd); (7.5 : 15.1065991210937)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/proveedor/proveedor_inventario_fisico" />
+      <nodes>
+        <classShapeMoniker Id="bca3513b-204e-461b-b70c-ed46d1f3a7e4" />
+        <classShapeMoniker Id="894656ff-f22d-4103-a53c-b097f2883750" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.75 : 17.5248552018229); (3.7812525 : 17.5248552018229); (3.7812525 : 16.9247054036458)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/proveedor/proveedor_orden" />
+      <nodes>
+        <classShapeMoniker Id="bca3513b-204e-461b-b70c-ed46d1f3a7e4" />
+        <classShapeMoniker Id="eccb0bb2-3f4c-4a25-84ea-23d2445b138c" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="ff942c23-576d-44c5-a874-6fc425e0c3ff" absoluteBounds="12.375, 17.5, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/POSDataContextDataContext/unidad_medida" />
+      <nestedChildShapes>
+        <elementListCompartment Id="bd992894-042a-4533-9859-648bea949384" absoluteBounds="12.39, 17.96, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(13.375 : 17.5); (13.375 : 3.5781275); (9.83333333333333 : 3.5781275 : JumpStart); (9.66666666666667 : 3.5781275 : JumpEnd); (3.375 : 3.5781275)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/unidad_medida/unidad_medida_articulo" />
+      <nodes>
+        <classShapeMoniker Id="ff942c23-576d-44c5-a874-6fc425e0c3ff" />
+        <classShapeMoniker Id="e52ac818-1f86-41c7-86df-49dce6e850f1" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9938e1c6-d64f-4e4e-8fc7-b03ce8d4b1ce" absoluteBounds="11.625, 19.75, 2, 1.9631982421875">
+      <DataClassMoniker Name="/POSDataContextDataContext/usuario" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5e0672de-7021-42ac-8d6e-4303092abfd4" absoluteBounds="11.64, 20.21, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.96875 : 19.75); (11.96875 : 15.6286511816406); (10.3645858333333 : 15.6286511816406 : JumpStart); (10.1979191666667 : 15.6286511816406 : JumpEnd); (9.83333333333333 : 15.6286511816406 : JumpStart); (9.66666666666667 : 15.6286511816406 : JumpEnd); (9.30208083333333 : 15.6286511816406 : JumpStart); (9.13541416666667 : 15.6286511816406 : JumpEnd); (7.5 : 15.6286511816406)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/usuario/usuario_inventario_fisico" />
+      <nodes>
+        <classShapeMoniker Id="9938e1c6-d64f-4e4e-8fc7-b03ce8d4b1ce" />
+        <classShapeMoniker Id="894656ff-f22d-4103-a53c-b097f2883750" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="b4f2df67-a8a1-4f46-ab36-c2417d75f2ab" absoluteBounds="8.375, 20.375, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/POSDataContextDataContext/usuario_permiso" />
+      <nestedChildShapes>
+        <elementListCompartment Id="dfff9f3e-2323-40f0-9dbe-2baef89ad3c4" absoluteBounds="8.39, 20.835, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.625 : 21.0440991210938); (10.375 : 21.0440991210938)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/POSDataContextDataContext/usuario/usuario_usuario_permiso" />
+      <nodes>
+        <classShapeMoniker Id="9938e1c6-d64f-4e4e-8fc7-b03ce8d4b1ce" />
+        <classShapeMoniker Id="b4f2df67-a8a1-4f46-ab36-c2417d75f2ab" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
