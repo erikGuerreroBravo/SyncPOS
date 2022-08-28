@@ -4,6 +4,8 @@ using System.IO;
 using System.Linq;
 using System.Web;
 
+using SyncPOS.DataAccess;
+
 namespace SyncPOS.exceptions
 {
     public class CtrlException
@@ -21,7 +23,7 @@ namespace SyncPOS.exceptions
 
         public static void SetErrorDB(string Message)
         {
-            using (POSDataContext posDataContext = new POSDataContext())
+            using (PosAdminDataContext posDataContext = new PosAdminDataContext())
             {
                 /*
                 posDataContext.ctrl_errores.InsertOnSubmit(new ctrl_errores()

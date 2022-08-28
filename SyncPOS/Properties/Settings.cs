@@ -23,7 +23,7 @@ namespace SyncPOS.Properties
         /// <summary>cadena original que apunta al servidor
         /// /[DefaultSettingValue("Data Source=(local);Initial Catalog=pos_admin;User ID=sa;Password=Plaza15")]
         /// </summary>
-        [DefaultSettingValue("Data Source=LAPTOP-CVOMG1OH;Initial Catalog=pos_admin;User ID=sa;Password=Sistemas410")]
+        [DefaultSettingValue("Data Source=DESKTOP-OTGCKD3\\SQLEXPRESS;Initial Catalog=pos_admin;Persist Security Info=True;User ID=sa;Password=Admin123")]
         [SpecialSetting(SpecialSetting.ConnectionString)]
         [DebuggerNonUserCode]
         [ApplicationScopedSetting]
