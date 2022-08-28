@@ -20,7 +20,10 @@ namespace SyncPOS.Properties
             }
         }
 
-        [DefaultSettingValue("Data Source=(local);Initial Catalog=pos_admin;User ID=sa;Password=Plaza15")]
+        /// <summary>cadena original que apunta al servidor
+        /// /[DefaultSettingValue("Data Source=(local);Initial Catalog=pos_admin;User ID=sa;Password=Plaza15")]
+        /// </summary>
+        [DefaultSettingValue("Data Source=LAPTOP-CVOMG1OH;Initial Catalog=pos_admin;User ID=sa;Password=Sistemas410")]
         [SpecialSetting(SpecialSetting.ConnectionString)]
         [DebuggerNonUserCode]
         [ApplicationScopedSetting]
