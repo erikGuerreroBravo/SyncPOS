@@ -5,11 +5,9 @@ using System.ServiceModel;
 
 namespace SyncPOS
 {
-    // NOTA: puede usar el comando "Rename" del menú "Refactorizar" para cambiar el nombre de interfaz "ISyncCatalogos" en el código y en el archivo de configuración a la vez.
     [ServiceContract]
-    public interface ISyncCatalogos
+    public interface ISyncCatalogos1
     {
-
         [OperationContract]
         List<SyncPOS.domain.unidad_medida> getUnidades(string lastChangeDateTime);
 

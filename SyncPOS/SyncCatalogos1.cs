@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 
 namespace SyncPOS
 {
-    public class SyncCatalogos: ISyncCatalogos
+    public class SyncCatalogos1: ISyncCatalogos1
     {
 
         public List<SyncPOS.domain.unidad_medida> getUnidades(string lastChangeDateTime)

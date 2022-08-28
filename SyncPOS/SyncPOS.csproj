@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Service1.svc" />
+    <Content Include="SyncCatalogos.svc" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +86,7 @@
     <Compile Include="inventario_captura.cs" />
     <Compile Include="inventario_fisico.cs" />
     <Compile Include="ISyncCatalogos.cs" />
+    <Compile Include="ISyncCatalogos1.cs" />
     <Compile Include="orden.cs" />
     <Compile Include="orden_articulo.cs" />
     <Compile Include="POSDataContext.cs" />
@@ -95,7 +97,10 @@
     </Compile>
     <Compile Include="IService1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SyncCatalogos.cs" />
+    <Compile Include="SyncCatalogos.svc.cs">
+      <DependentUpon>SyncCatalogos.svc</DependentUpon>
+    </Compile>
+    <Compile Include="SyncCatalogos1.cs" />
     <Compile Include="unidad_medida.cs" />
     <Compile Include="usuario.cs" />
     <Compile Include="usuario_permiso.cs" />
